@@ -1,0 +1,28 @@
+#header{
+    width:100%;
+}
+
+#container{ 
+    /*20px below top and left and right automatic. i.e. center*/
+    margin: 20px auto;
+    width: 980px;
+    border: 1px solid black;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+}
+
+#leftnav{
+    
+}
+
+rightnav{
+    
+}
+
+#maincontent{
+    
+}
+
+#footer{
+    
+}
