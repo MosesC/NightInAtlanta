@@ -1,28 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("images/background.jpg");
+}
+
 #header{
     width:100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#999));
+    text-align: center;
+    color:white;
+    font: 30px sans-serif;
+}
+
+#topnav{
+    width:975px;
+    height: 40px;
+    margin: 0px auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #00A3EF), color-stop(1, #2B2B2B));
+    background-image: -moz-linear-gradient(bottom, #00A3EF 0%, #2B2B2B 100%);
+    -webkit-border-top-right-radius: 1em;
+    -moz-border-top-right-radius: 1em;
+    -webkit-border-top-left-radius: 1em;
+    -moz-border-top-left-radius: 1em;
+}
+
+#topnav ul li{
+    display: inline-block;
+    margin: 0px;
+    width: 190px;
+    height: 40px;
+}
+
+#topnav ul li a{
+    color: #6BFF9A;
+    text-decoration: none;
+    display: block;
+    width: 190px;
+    height: 40px;
+    text-align: center;
+}
+
+#topnav ul li:firstchild a:hover{
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #9CFFF8), color-stop(1, #2B2B2B));
+    background-image: -moz-linear-gradient(bottom, #9CFFF8 0%, #2B2B2B 100%);
+    -webkit-border-top-left-radius: 1em;
+    -moz-border-top-left-radius: 1em;
+}
+
+#topnav ul li a:hover{
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #9CFFF8), color-stop(1, #2B2B2B));
+    background-image: -moz-linear-gradient(bottom, #9CFFF8 0%, #2B2B2B 100%);
+    -webkit-border-top-left-radius: 1em;
+    -moz-border-top-left-radius: 1em;
 }
 
 #container{ 
     /*20px below top and left and right automatic. i.e. center*/
-    margin: 20px auto;
     width: 980px;
+    margin: 20px auto;
+    margin-top: 0px;
     border: 1px solid black;
     -moz-border-radius: 1em;
     -webkit-border-radius: 1em;
+    background-color: white;
 }
 
 #leftnav{
-    
+    width: 140px;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid black;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    text-align: center;
 }
 
-rightnav{
-    
+#rightnav{
+    width: 140px;
+    float: right;
+    margin-left: 9px;
+    border: 1px solid black;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    text-align: center;
 }
 
 #maincontent{
-    
+    width: 680px;
+    border: 1px solid black;
+    margin: 1px auto;
+}
+
+#calendar{
+
 }
 
 #footer{
-    
+    margin: 1px auto;
 }
+
+table{
+    margin: 10px auto;
+    border-color: #4F9C4F;
+}
+
+th, td{
+    padding: 5px;
+    text-align: center;
+}
+
+th{
+    font: 20px;
+    color: white;
+    background-color: #CC99CC;
+}
+
+/*i used #99CC99 as the base color*/
+tr{
+    font: 12px Tahoma;
+    color: black;
+    background-color: #99CCCC;
+}
+
+#alt{
+    background-color: #71B771;
+}
+
